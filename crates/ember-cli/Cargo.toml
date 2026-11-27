@@ -1,0 +1,11 @@
+[package]
+name = "ember-cli"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "ember"
+path = "src/main.rs"
+
+[dependencies]
+ember = {path = "../ember"}
